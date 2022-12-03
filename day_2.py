@@ -1,6 +1,6 @@
-# A - rock 
-# B - paper 
-# C - scissors 
+# A - rock
+# B - paper
+# C - scissors
 # X - rock - 1
 # Y - paper - 2
 # Z - scissors - 3
@@ -23,7 +23,7 @@ def pt1():
         for line in f:
             result += matches[line.strip()]
 
-    print(result)
+    return result
 
 # A - rock - 1
 # B - paper - 2
@@ -31,6 +31,7 @@ def pt1():
 # X - lose
 # Y - draw
 # Z - win
+
 
 def pt2():
     matches = {
@@ -50,9 +51,12 @@ def pt2():
         for line in f:
             result += matches[line.strip()]
 
-    print(result)
+    return result
 
 
 if __name__ == '__main__':
-    pt1()
-    pt2()
+    print()
+    print('--- DAY 2 ---')
+    print('1.', pt1())
+    print('2.', pt2())
+    print()

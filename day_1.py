@@ -1,7 +1,6 @@
 
 def pt1():
     max = 0
-
     with open("./day_1_input.txt", "r") as f:
         local_max = 0
 
@@ -14,7 +13,7 @@ def pt1():
 
             local_max += int(line.strip())
 
-    print(max)
+    return max
 
 
 def pt2():
@@ -35,9 +34,12 @@ def pt2():
                 continue
 
             local_max += int(line.strip())
-    print(sum(max3))
+    return sum(max3)
 
 
 if __name__ == '__main__':
-    pt1()
-    pt2()
+    print()
+    print('--- DAY 1 ---')
+    print('1.', pt1())
+    print('2.', pt2())
+    print()

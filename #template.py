@@ -1,9 +1,14 @@
 def pt1():
-  pass
+    pass
+
 
 def pt2():
-  pass
+    pass
+
 
 if __name__ == '__main__':
-    pt1()
-    pt2()
+    print()
+    print('--- DAY X ---')
+    print('1.', pt1())
+    print('2.', pt2())
+    print()
