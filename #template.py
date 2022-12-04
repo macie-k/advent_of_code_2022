@@ -1,8 +1,12 @@
 def pt1():
+    with open("./day_x_input.txt", "r") as f:
+        pass
     pass
 
 
 def pt2():
+    with open("./day_x_input.txt", "r") as f:
+        pass
     pass
 
 
