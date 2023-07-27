@@ -7,12 +7,14 @@ def pt2(lines):
 
 
 if __name__ == '__main__':
+    DAY = 0
+
     lines = []
-    with open("./day_x_input.txt", "r") as f:
+    with open(f"./day_{DAY}_input.txt", "r") as f:
         lines = [line for line in f]
 
     print()
-    print('--- DAY X ---')
+    print(f'--- DAY {DAY} ---')
     print('1.', pt1(lines))
     print('2.', pt2(lines))
     print()
